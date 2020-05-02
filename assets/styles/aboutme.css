@@ -1,0 +1,83 @@
+body {
+  background-color: #DDF9FF;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+#logo {
+  height: 70px;
+  margin-left: 35px;
+}
+
+#logo:hover {
+  animation: shake .7s infinite;
+  animation-timing-function: linear;
+}
+
+#about-me-pink {
+  margin-right: 50px;
+  font-size: 25px;
+  color: #FDA4A4;
+}
+
+a:link {
+   text-decoration: none;
+ }
+
+#frame {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 7px solid #FDA4A4;
+  border-radius: 175px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#text {
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  line-height: 55px;
+  color: #FDA4A4;
+  width: 400px;
+  position: relative;
+  left: 80px;
+  top: 50px;
+  font-weight: 700;
+}
+
+#description {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+#me-img {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  left: -120px;
+  top: 50px;
+  border-radius: 30px;
+}
+
+@keyframes shake {
+  25% {
+    transform: rotate(-18deg);
+  }
+  75% {
+    transform: rotate(18deg);
+  }
+}

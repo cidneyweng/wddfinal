@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boba Across America</title>
+	<link rel="stylesheet" href="assets/styles/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Kanit:400,700|Muli:400,800&display=swap" rel="stylesheet">
+</head>
+<body onload="toSeattle()">
+	<div id="homepage">
+    <div id="nav-bar">
+  		<a href="index.html">
+  			<img src="assets/imgs/logo.png" id="logo"/>
+  		</a>
+      <a id="about-me-pink" href="aboutme.html"> about me </a>
+    </div>
+
+    <h1 id="title"> BOBA ACROSS AMERICA </h1>
+
+  	<div id="images-outer-container">
+  	  <div id="images-inner-container">
+  	    <img src="assets/imgs/america.png" id="america"/>
+  	    <div id="seattle">
+  	      <img src="assets/imgs/pin.png" class="pin" id="seattle-pin"/>
+  	      <p class="city-text" id="seattle-text"> seattle </p>
+  	    </div>
+  	    <div id="sf">
+  	      <img src="assets/imgs/pin.png" class="pin" id="sf-pin"/>
+  	      <p class="city-text" id="sf-text"> san francisco </p>
+  	    </div>
+  	    <div id="nyc">
+  	      <img src="assets/imgs/pin.png" class="pin" id="nyc-pin"/>
+  	      <p class="city-text" id="nyc-text"> new york city </p>
+  	    </div>
+  	  </div>
+  	</div>
+  </div>
+
+<div id="locations">
+    <div id="nav-bar">
+      <img src="assets/imgs/logo.png" id="logo2"/>
+      <a id="about-me-gray" href="aboutme.html"> about me </a>
+    </div>
+
+    <div id="cities">
+      <p class="city" id="seattle-top"> seattle </p>
+      <p class="city" id="sf-top"> san francsico </p>
+      <p class="city" id="nyc-top"> new york </p>
+    </div>
+
+    <div id="carousel-controls">
+        <!-- Problem 2.8 -->
+        <button id="button-previous">
+          <img src="assets/imgs/prev_arrow.png" alt="prev button" class="arrow">
+        </button>
+        <button id="button-next">
+          <img src="assets/imgs/next_arrow.png" alt="next button" class="arrow">
+        </button>
+    </div>
+
+    <div id="carousel-frame">
+      <div id="carousel">
+        <div id="carousel-row">
+          <div class="city-page" id="seattle-page">
+            <div class="text">
+              <h2 class="city-title"> SEATTLE, WA </h2>
+              <div class="shops">
+                <p class="shop" id="moobar"> THE MOO BAR </p>
+                <p class="shop" id="youngtea"> YOUNG TEA </p>
+                <p class="shop" id="bobaup"> BOBA UP </p>
+              </div>
+            </div>
+              <img src="assets/imgs/seattle.png" id="seattle-icon"/>
+          </div>
+          <div class="city-page" id="sf-page">
+            <div class="text">
+              <h2 class="city-title"> SAN FRANCISCO, CA </h2>
+              <div class="shops">
+                <p class="shop" id="bobaguys"> BOBA GUYS </p>
+                <p class="shop" id="purplekow"> PURPLE KOW </p>
+                <p class="shop" id="happylemon"> HAPPY LEMON </p>
+              </div>
+            </div>
+              <img src="assets/imgs/san-francisco.png" id="sf-icon"/>
+          </div>
+          <div class="city-page" id="nyc-page">
+            <div class="text">
+              <h2 class="city-title"> NEW YORK CITY, NY</h2>
+              <div class="shops">
+                <p class="shop" id="vivi"> VIVI BUBBLE TEA </p>
+                <p class="shop" id="gongcha"> GONG CHA </p>
+                <p class="shop" id="barpatea"> BAR PA TEA </p>
+              </div>
+            </div>
+              <img src="assets/imgs/taxi.png" id="nyc-icon-1"/>
+              <img src="assets/imgs/liberty.png" id="nyc-icon-2"/>
+          </div>
+        </div>
+
+        <div id="carousel-row-2">
+          <div id="seattle-shop-page">
+						<button id="button-up-container">
+							<img src="assets/imgs/up_arrow.png" alt="up button" class="button-up" id="button-up-seattle">
+						</button>
+            <div class="shop-page" id="moobar-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> THE MOO BAR </h3>
+                <h4 class="shop-location"> Seattle, WA </h4>
+                <p class="shop-text"> While the Moo Bar doesn’t have the most outstanding milk tea or boba,
+                  they have the best presentation by far. Their drinks come in a mason jar with an adorable
+                  drawing and pun on the front, ranging from corgis to Totoro, and I’m a sucker for Studio
+                  Ghibli! I’d recommend their Matcha Latte and Miss Peachy. </p>
+              </div>
+                <img src="assets/imgs/moobar.jpeg" id="moo-bar-img" />
+            </div>
+            <div class="shop-page" id="youngtea-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> YOUNG TEA </h3>
+                <h4 class="shop-location"> Seattle, WA </h4>
+                <p class="shop-text"> Located in the heart of International District, Young Tea prides itself
+                  on the quality of the drinks. They use fresh milk while making their drinks, making them
+                  taste more refreshing and bringing out the true flavor of the tea. I love their Signature Milk Tea and
+                  Iron Buddha Milk Tea! </p>
+              </div>
+                <img src="assets/imgs/youngtea.jpg" id="youngtea-img" />
+            </div>
+            <div class="shop-page" id="bobaup-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> BOBA UP </h3>
+                <h4 class="shop-location"> Seattle, WA </h4>
+                <p class="shop-text"> The possibilities are endless at this self-serve boba spot in U-District! Any type
+                  of milk tea, fruit tea, slush, topping, even salted cream topping - if you can imagine it, Boba Up has
+                  it. And you can add as much as you want to your fill-up cup! Quality is average, but the experience is
+                  definitely worth a visit.</p>
+              </div>
+                <img src="assets/imgs/bobaup.jpeg" id="bobaup-img" />
+            </div>
+          </div>
+          <div id="sf-shop-page">
+						<button id="button-up-container">
+							<img src="assets/imgs/up_arrow.png" alt="up button" class="button-up" id="button-up-sf">
+						</button>
+            <div class="shop-page" id="bobaguys-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> BOBA GUYS </h3>
+                <h4 class="shop-location"> San Francisco, CA </h4>
+                <p class="shop-text"> Boba Guys is my all-time favorite boba spot, always worth the long
+                  lines and slightly hefty prices for me. Their Matchata is a perfect amount of sweetness,
+                  and you can’t go wrong with their Muscat Oolong! The quality of their tea AND boba is unmatched! </p>
+              </div>
+                <img src="assets/imgs/bobaguys.jpeg" id="bobaguys-img" />
+            </div>
+            <div class="shop-page" id="purplekow-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> PURPLE KOW </h3>
+                <h4 class="shop-location"> Berkeley, CA </h4>
+                <p class="shop-text"> A staple for UC Berkeley students (Go Bears!), Purple Kow stands in
+                  downtown Berkeley. They're famous for their Iced Milk Drinks that come in massive cups,
+                  a sweet and delicious milky drink that I've yet to find anywhere else. I love ordering
+                  their Iced Milk Drink with Boba and Matcha Pudding. YUM!  </p>
+              </div>
+                <img src="assets/imgs/purplekow.jpeg" id="purplekow-img" />
+            </div>
+            <div class="shop-page" id="happylemon-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> HAPPY LEMON </h3>
+                <h4 class="shop-location"> Berkeley, CA </h4>
+                <p class="shop-text"> I'm never disappointed by the quality of Happy Lemon's drinks.
+                  Their milk teas are the perfect amount of sweet, and their fruit teas wonderfully refreshing.
+                  This is the first place I tried a Salted Cheese drink, and I've been sold ever since! My go-to
+                  drink is their Black Tea with Salted Cheese. </p>
+              </div>
+                <img src="assets/imgs/happylemon.jpeg" id="happylemon-img" />
+            </div>
+          </div>
+          <div id="nyc-shop-page">
+						<button id="button-up-container">
+							<img src="assets/imgs/up_arrow.png" alt="up button" class="button-up" id="button-up-nyc">
+						</button>
+            <div class="shop-page" id="vivi-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> VIVI BUBBLE TEA </h3>
+                <h4 class="shop-location"> New York City, NY </h4>
+                <p class="shop-text"> If you're looking for an instagrammable boba shop, Vivi Bubble Tea is
+                  the place to go! Their bubble tea floats come with a cloud of cotton candy on top, along
+                  with some aesthetically pleasing sides. Quality is neither astounding nor disappointing,
+                  and you can decide for yourself whether it's worth the hype. </p>
+              </div>
+              <img src="assets/imgs/vivi.jpeg" id="vivi-img" />
+            </div>
+            <div class="shop-page" id="gongcha-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> GONG CHA </h3>
+                <h4 class="shop-location"> New York City, NY </h4>
+                <p class="shop-text"> Gong Cha is a huge chain that you can find all over the world, and it
+                  never disappoints. The quality of their tea and boba is SO good! But their drinks do tend
+                  to lean on the sweeter side, so I would recommend going one sweetness level below your usual.
+                  I keep it simple here with a Pearl Milk Tea, 30% sweetness, 50% ice. </p>
+              </div>
+              <img src="assets/imgs/gongcha.jpeg" id="gongcha-img" />
+            </div>
+            <div class="shop-page" id="barpatea-page">
+              <div class="shop-text-container">
+                <h3 class="shop-title"> BAR PA TEA </h3>
+                <h4 class="shop-location"> New York City, NY </h4>
+                <p class="shop-text"> How unique! A fun twist on regular boba, Bar Pa Tea offers a milk tea
+                  soft serve with boba as a topping. The boba is chewy and delicious, and the ice cream is
+                  refreshing on a hot New York summer day. 10/10 would recommend! </p>
+              </div>
+              <img src="assets/imgs/barpatea.jpg" id="barpatea-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
